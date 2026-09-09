@@ -1,0 +1,48 @@
+{
+    "id": "voxel_forest",
+    "name": "Лесной сектор (Voxel Forest)",
+    "version": "1.0.0",
+    "author": "Circuit 04 Community",
+    "category": "maps",
+    "description": "Атмосферная лесная локация с воксельным ландшафтом, хвойными деревьями, валунами, поросшими травой холмами и чистым воздухом. Полная поддержка физики, Hand IK и инструментов.",
+    "tags": [
+        "map",
+        "forest",
+        "nature",
+        "voxel",
+        "sandbox"
+    ],
+    "icon": "icon.png",
+    "screenshots": [
+        "preview.png"
+    ],
+    "spawn_position": [
+        0.0,
+        1.2,
+        0.0
+    ],
+    "spawn_rotation_y": 0.0,
+    "is_enabled": true,
+    "maps": [
+        {
+            "id": "voxel_forest",
+            "name": "Лесной сектор (Voxel Forest)",
+            "scene": "voxel_forest.tscn",
+            "preview": "preview.png",
+            "description": "Хвойный лес с воксельными холмами, поросшими сочной травой, и поляной для испытаний.",
+            "spawn_position": [
+                0.0,
+                1.2,
+                0.0
+            ],
+            "spawn_rotation_y": 0.0
+        }
+    ],
+    "commands": [
+        {
+            "name": "forest",
+            "script": "cmd_forest.gd",
+            "description": "Загрузить карту Лесной сектор (Voxel Forest)"
+        }
+    ]
+}
